@@ -1,0 +1,6 @@
+/target
+/client/dist
+/server/res
+**/*.db
+**/*.sqlite
+.env
