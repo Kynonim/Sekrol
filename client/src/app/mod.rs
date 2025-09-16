@@ -22,7 +22,10 @@ pub enum Route {
 #[derive(Clone, Debug, Deserialize, PartialEq)]
 pub struct VideoDatabase {
   pub id: String,
-  pub filename: String,
   pub username: String,
-  pub description: String
+  pub filename: String,
+  pub description: String,
+  pub content_type: String,
+  pub size: i64,
+  pub created_at: String,
 }
